@@ -1,0 +1,101 @@
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 768px) { 
+    main.site_main_area {
+        margin-top: 6rem;
+    }
+    .header_area .main-menu .navbar{
+        /* padding: 1rem; */
+        background-color: #000000;
+        position: fixed;
+    }
+    .header_area .container .row .col-12 .title-header h1{
+        font-size: 1.6rem;
+        font-weight: 600
+    }
+    .header_area .navbar-brand img{
+        width: 60px !important;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .title-text{
+        font-size: 20px;
+    }
+    .site_main_area .slide_area .carousel-inner .carousel-caption {
+        padding: 1rem 0rem;
+    }
+    .site_main_area .slide_area .carousel-inner .carousel-caption img {
+        width: 20%;
+    }
+    .site_main_area .slide_area .carousel-inner .carousel-caption h1 {
+        font-size: 15px;
+    }
+    .site_main_area .slide_area .carousel-inner .carousel-caption p {
+        font-size: 15px;
+    }
+    .site_main_area .slide_area .carousel-inner .carousel-caption button{
+        width: 250px;
+        
+       
+    }
+    
+    .about_area {
+        background: url(/image/img/home-1-slider-img-2.jpg);
+        background-size: 100%;
+        
+    }
+    .about_area .col-md-6.col-3 img{
+        width: 100%;
+    }
+    .site_main_area .service_area .row.list-strong .col-md-4.col-12{
+        padding: 20px;
+    }
+    .site_main_area .service_area .row.list-strong .col-md-4.col-12 img{
+        justify-content: center;
+        width: 100%;
+    }
+    .try_coffee_area .row.bot .col-sm-6.col-12 .bgr h3 {
+        font-size: 1rem;
+        padding: 3rem;
+    }
+    .try_coffee_area .row.bot .col-sm-6.col-12 .bgr .para {
+        font-size: 0.6rem;
+        
+        padding: 0rem 10rem 0rem 2rem;
+    }
+    .try_coffee_area .row.bot .col-sm-6.col-12.right1 img {
+        padding-top: 0rem;
+    }
+    .wet_menu_area .menu_list .row .col-sm-6.col-12 .row{
+        padding: 1rem 2rem;
+    }
+    .image_area{
+        overflow-x: hidden;
+    }
+    .blog_area .row .col-md-4.col-12{
+        padding: 1rem ;
+        justify-content: center;
+    }
+    .blog_area .row .col-md-4.col-12 img{
+        justify-content: center;
+        width: 100%;
+    }
+    .footer_area .social a{
+        color: black;
+    }
+    .footer_area .social li{
+       padding-left: 0.2rem;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+   
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+}

@@ -1,0 +1,131 @@
+/* Global Classes */ 
+
+.title-text{
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 0.2rem;
+    font:normal  500 40px var(--oswald);
+}
+.title-text::after{
+    content: '';
+    position: absolute;
+    top: 110%;
+     left: 30%; 
+    height: 0.2rem;
+    width: 40%;
+    background-color: rgb(20, 165, 140);
+}
+
+/* Buttons */ 
+
+
+.btn{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/25px var(--titillium);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    
+}
+
+.btn.primary-button{
+    background: var(--primary-color2);
+    background-clip: border-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.btn.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    border-radius: 4px;
+}
+
+.btn.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: var(--primary-color2);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.btn.secondary-button{
+    background: rgb(95, 216, 200);
+    background-clip: padding-box;
+    transition: background .6s ease;
+    margin-bottom: 6rem;
+}
+
+.btn.secondary-button:hover{
+    background: var(--primary-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+p.line{
+    padding: 0.8rem 0;
+    font: italic 100 25px var(--merriweather);
+}
+p.para{
+    color: var(--text-color);
+    font: normal var(--titillium);
+    font-size: 15px;
+}
+span.position{
+    color: var(--text-color2);
+    font-size: 14px;
+}
+h5{
+     text-transform: uppercase;
+     color: #ffffff;
+ }
+
+p{
+    margin: 0;
+}
+.read_more a{
+    text-decoration: none;
+    color: var(--primary-color2);
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font:  bold 70px var(--oswald);
+}
+
+
+.navbar_fixed{
+    
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0; right: 0;
+    background: black;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}
+.navbar-toggler-icon {
+    color: red;
+    background-color: #ffffff;
+    padding-right: 1rem;
+  }
+.show{
+   
+}

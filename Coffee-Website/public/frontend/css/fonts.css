@@ -1,0 +1,10 @@
+/* @font-face */ 
+
+@font-face{
+    font-family: "Oswald";
+    src: '../fonts/Oswald/static/Oswald-Bold.ttf';
+}
+@font-face{
+    font-family: "Merriweather";
+    src: '../fonts/font/Merriweather-Italic.ttf';
+}

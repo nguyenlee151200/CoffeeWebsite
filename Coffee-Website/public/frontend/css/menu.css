@@ -1,0 +1,124 @@
+@import url(./fonts.css);
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* css global*/
+@import url(./partials/_global.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h4{
+    text-transform: uppercase;
+}
+.header_area{
+    position: relative;
+    
+}
+.header_area::before{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: url('/image/img/ripped-paper-edge-png-snow-11563263053zgfomiccj5.png');
+    background-size: cover;
+
+}
+.header_area .main-menu .navbar{
+    /* padding: 1rem; */
+    background-color: #000000;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 18px/13px var(--merriweather);
+    text-transform: uppercase;
+    padding-right: 1rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--primary-color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--primary-color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* end navigation */ 
+
+/* end header */
+
+.about_me{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+.about_me .row{
+    padding: 2rem 0;
+}
+.about_me .ima img{
+    border-radius: 0rem 15rem;
+}
+.about_me .row .col-md-6.col-12.right{
+    padding-top: 2rem;
+    padding-left: 8rem;
+}
+.about_me .row .col-md-6.col-12.right ul li a{
+    color: #555555;
+}
+/* end service_area */
+
+/* end try_coffee_area  */
+
+/* start wet_menu_area  */
+.wet_menu_area{
+    margin-top: 6rem;
+    color: #000000;
+}
+.wet_menu_area a{
+   color: #000000;
+   text-decoration: none;
+}
+.wet_menu_area .row{
+    padding: 1rem 0;
+}
+.wet_menu_area .menu_list .row .col-sm-6.col-12 .row{
+    padding: 1rem 0;
+}
+/* end wet_menu_area */
+
+
+/* end blog_area */
+
+/* start footer */
+.info{
+    background-image: url(/image/img/home-1-slider-img-2.jpg);
+}
+.social{
+    background-color: #000000;
+    height: 70px;
+    line-height: 60px;
+}
+.social li{
+    padding: 0 1rem;
+}
+.social p.para{
+   color: #555555;
+   
+}
+.social a{
+    color: #ffffff;
+}
+.social a:hover{
+    color: #555555;
+}
